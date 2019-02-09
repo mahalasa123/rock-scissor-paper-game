@@ -1,0 +1,14 @@
+:local(.Challenge) {
+	padding: 20px 0;
+	text-align: center;
+	width: 320px;
+	background:#152a43;
+	box-shadow: 0 4px 8px 6px #939199;
+	transition: 0.3s;
+
+	.vs {
+		display: inline-block;
+		font-weight: bold;
+		margin: 20px;
+	}
+}

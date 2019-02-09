@@ -1,0 +1,16 @@
+:local(.Button) {
+	background-color: #337ab7;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	color:#fff;
+	padding: 15px 20px;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:disabled {
+		opacity: 0.5;
+	}
+}
