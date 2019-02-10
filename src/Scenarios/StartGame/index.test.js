@@ -6,10 +6,9 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 
 describe('<StartGame />', () => {
-	
-
+let wrapper;
 	beforeEach(() => {
-	const wrapper = shallow(<StartGame/>);
+	 wrapper = shallow(<StartGame/>);
 	});
 
 	it('should return random weapon', () => {
